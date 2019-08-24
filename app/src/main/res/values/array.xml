@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="townships">
+        <item>Pazon Daung</item>
+        <item>Kyout Myoung</item>
+        <item>Tarmway</item>
+
+    </string-array>
+
+    <string-array name = "pricelist">
+        <item>Price \t\t $ </item>
+        <item>Price \t\t $>$$ </item>
+        <item>Price \t\t $$>$$$ </item>
+        <item>Price \t\t $$$ </item>
+    </string-array>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/item_home"
+        android:enabled="true"
+        android:title="@string/lbl_menu_item_home"
+         android:icon="@drawable/ic_home_black_48dp" />
+
+    <item android:id="@+id/item_search"
+        android:enabled="true"
+        android:title="@string/lbl_menu_item_home"
+        android:icon="@drawable/ic_search_black_48dp" />
+
+    <item android:id="@+id/item_event"
+        android:enabled="true"
+        android:title="@string/lbl_menu_item_home"
+        android:icon="@drawable/ic_home_black_48dp" />
+
+    <item android:id="@+id/item_book_mark"
+        android:enabled="true"
+        android:title="@string/lbl_menu_item_home"
+        android:icon="@drawable/ic_search_black_48dp" />
+
+
+</menu>

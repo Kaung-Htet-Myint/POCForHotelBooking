@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:layout_marginTop = "@dimen/margin_medium_2"
+        android:orientation = "horizontal"
+        android:weightSum = "3">
+
+        <TextView
+            android:id = "@+id/tv_cancel"
+            android:layout_width = "0dp"
+            android:layout_height = "wrap_content"
+            android:layout_gravity = "center_vertical"
+            android:layout_marginStart="@dimen/margin_medium_2"
+            android:layout_weight = "1"
+            android:text = "@string/cancel"
+            android:textColor = "@color/colorPrimary" />
+
+        <TextView
+            android:layout_width = "0dp"
+            android:layout_height = "wrap_content"
+            android:layout_weight = "1"
+            android:gravity = "center"
+            android:text = "@string/filter"
+            android:textColor = "@color/primary_text"
+            android:textSize = "@dimen/text_heading_1x"
+            android:textStyle = "bold" />
+
+        <TextView
+            android:layout_width = "0dp"
+            android:layout_height = "wrap_content"
+            android:layout_gravity = "center_vertical"
+            android:layout_marginEnd="@dimen/margin_medium_2"
+            android:layout_weight = "1"
+            android:gravity = "end"
+            android:text = "@string/reset"
+            android:textColor = "@color/colorPrimary" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:layout_marginTop = "@dimen/margin_medium_2"
+        android:text = "@string/sort_by"
+        android:layout_marginStart="@dimen/margin_medium_2"
+        android:textAllCaps = "true"
+        android:textColor = "@color/primary_text"
+        android:textSize = "@dimen/text_regular_2x" />
+
+    <LinearLayout
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:layout_marginTop = "@dimen/margin_medium_2"
+        android:background = "@drawable/spinner_border">
+
+        <Spinner
+            android:id = "@+id/spinner_price"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:entries="@array/pricelist"
+            android:padding = "@dimen/margin_medium" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:layout_marginTop = "@dimen/margin_medium_2"
+        android:text = "@string/rating"
+        android:textAllCaps = "true"
+        android:layout_marginStart="@dimen/margin_medium_2"
+        android:textColor = "@color/primary_text"
+        android:textSize = "@dimen/text_regular_2x" />
+
+
+    <com.google.android.material.chip.ChipGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_medium"
+        app:chipSpacing="@dimen/margin_medium"
+        app:singleLine="true"
+        app:singleSelection="true">
+
+        <com.google.android.material.chip.Chip
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checkable="true"
+            android:text="@string/none"
+            android:textColor="@color/icons"
+            app:checkedIconEnabled="false"
+            app:chipBackgroundColor="@color/divider"
+            app:chipCornerRadius="10dp"
+            android:layout_marginStart="@dimen/margin_medium"/>
+
+        <com.google.android.material.chip.Chip
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checkable="true"
+            android:text="1"
+            android:textColor="@color/icons"
+            app:checkedIconEnabled="false"
+            app:chipIcon="@drawable/ic_star_black_24dp"
+            app:chipBackgroundColor="@color/divider"
+            app:chipCornerRadius="10dp"
+            android:layout_marginStart="@dimen/margin_small"/>
+
+        <com.google.android.material.chip.Chip
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checkable="true"
+            android:text="2"
+            android:textColor="@color/icons"
+            app:chipIcon="@drawable/ic_star_black_24dp"
+            app:checkedIconEnabled="false"
+            app:chipBackgroundColor="@color/divider"
+            app:chipCornerRadius="10dp"
+            android:layout_marginStart="@dimen/margin_small"/>
+
+        <com.google.android.material.chip.Chip
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checkable="true"
+            android:text="3"
+            android:textColor="@color/icons"
+            app:chipIcon="@drawable/ic_star_black_24dp"
+            app:checkedIconEnabled="false"
+            app:chipBackgroundColor="@color/divider"
+            app:chipCornerRadius="10dp"
+            android:layout_marginStart="@dimen/margin_small"/>
+
+        <com.google.android.material.chip.Chip
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checkable="true"
+            android:text="4"
+            android:textColor="@color/icons"
+            app:chipIcon="@drawable/ic_star_black_24dp"
+            app:checkedIconEnabled="false"
+            app:chipBackgroundColor="@color/divider"
+            app:chipCornerRadius="10dp"
+            android:layout_marginStart="@dimen/margin_small"/>
+
+        <com.google.android.material.chip.Chip
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checkable="true"
+            android:text="5"
+            android:textColor="@color/icons"
+            app:chipIcon="@drawable/ic_star_black_24dp"
+            app:checkedIconEnabled="false"
+            app:chipBackgroundColor="@color/divider"
+            app:chipCornerRadius="10dp"
+            android:layout_marginStart="@dimen/margin_small"/>
+
+    </com.google.android.material.chip.ChipGroup>
+
+
+
+    <TextView
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:text = "@string/price_range"
+        android:layout_marginTop = "@dimen/margin_medium_2"
+        android:layout_marginStart="@dimen/margin_medium_2"
+        android:textAllCaps = "true"
+        android:textColor = "@color/primary_text"
+        android:textSize = "@dimen/text_regular_2x" />
+
+    <LinearLayout
+        android:id = "@+id/search_buttons"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:layout_marginTop = "@dimen/margin_medium_2"
+        android:orientation = "horizontal"
+        android:weightSum = "5">
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_filter_now"
+            android:layout_weight="4"
+            android:layout_marginStart="@dimen/margin_medium_2"
+            android:backgroundTint="@color/colorPrimary"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_weight="1"
+            android:layout_marginEnd="@dimen/margin_medium_2"
+            app:icon="@drawable/ic_map_white_24dp"
+            android:backgroundTint="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+</LinearLayout>

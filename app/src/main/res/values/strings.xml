@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">POCForHotelBooking</string>
+    <string name="action_settings">Settings</string>
+    <string name="rating_points">
+        <b>4.5</b>(21 ratings)
+    </string>
+    
+    <string name="price_per_day">$99/day</string>
+    <string name="title_westeen">The Westeen</string>
+    <string name="gulshan_circle_2_dahka">Gulshan Circle 2, Dhaka</string>
+    <string name="get_50_percent_off">GET 50% OFF</string>
+    <string name="free_wifi">Free wifi</string>
+    <string name="swimming">Swimming</string>
+    <string name="location">Location</string>
+    <string name="dhaka">Dhaka</string>
+
+    <string name="near_by">Nearby</string>
+    <string name="popular">Popular</string>
+    <string name="all">All</string>
+
+    <string name="lbl_menu_item_home"> </string>
+    <string name="explore">Explore</string>
+    <string name="btn_filters">Filters</string>
+    <string name="lbl_location">Location</string>
+    <string name="check_in_date">07 Mar, 2019</string>
+    <string name="check_in">Check In</string>
+
+    <string name="check_out_date">12 Mar, 2019</string>
+    <string name="check_out">Check Out</string>
+
+    <string name="count_no">2 Adults</string>
+    <string name="count">Count</string>
+
+    <string name="room_no">03</string>
+    <string name="romms">Rooms</string>
+    <string name="btn_label_search_now">Search Now</string>
+
+    <string name="title_top_search">TOP SEARCH</string>
+    <string name="title_recent_search">RECENT SEARCH</string>
+    
+    <string name="cancel">Cancel</string>
+    <string name="filter">Filter</string>
+    <string name="reset">Reset</string>
+    <string name="sort_by">Sort By</string>
+
+    <string name="none">NONE</string>
+    <string name="rating">RATING</string>
+    <string name="price_range">PRICE RANGE</string>
+
+    <string name="btn_filter_now">FILTER NOW</string>
+</resources>
